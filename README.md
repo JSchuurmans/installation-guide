@@ -2,15 +2,16 @@
 Installation Guide of all software required for my PhD
 
 
-# Ubuntu
+## Ubuntu
 https://itsfoss.com/install-ubuntu/
 
-## Cuda driver
+### Cuda driver
+Prerequisite:
 
 ### CUDNN
 
 
-# Code and IDE
+## IDE
 python3.8-dev
 
 pycharm
@@ -22,11 +23,12 @@ sublime
 ### Nvidia
 
 
-# Zotero
+## Zotero
 
+### Webplugin
 
-# Zsh
+## Zsh
 [https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 
-## Oh My Zsh
+### Oh My Zsh
 [https://github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
