@@ -8,9 +8,17 @@ https://itsfoss.com/install-ubuntu/
 ### Cuda driver
 
 Prerequisite:
-
 - gcc: https://linuxize.com/post/how-to-install-gcc-on-ubuntu-20-04/
 - `sudo apt-get install freeglut3 freeglut3-dev libxi-dev libxmu-dev`
+
+https://developer.nvidia.com/cuda-11.1.1-download-archive
+
+Post install:
+- add following to .zshrc:
+```
+export PATH=/usr/local/cuda-11.1/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH="/usr/local/cuda-11.1/lib64:$LD_LIBRARY_PATH"
+```
 
 
 ### CUDNN
