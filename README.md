@@ -22,7 +22,16 @@ export LD_LIBRARY_PATH="/usr/local/cuda-11.1/lib64:$LD_LIBRARY_PATH"
 
 
 ### CUDNN
+https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html
+```
+sudo apt-get install libcudnn8=8.1.1.33-1+cuda11.2 
+sudo apt-get install libcudnn8-dev=8.1.1.33-1+cuda11.2
+```
+*also works for cuda 11.1* see https://developer.nvidia.com/rdp/cudnn-archive
 
+Test requires FreeImage: `sudo apt-get install libfreeimage3 libfreeimage-dev`
+
+Run test: https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html#verify
 
 ## IDE
 python3.8-dev
