@@ -5,7 +5,11 @@ Installation Guide of all software required for my PhD
 ## Ubuntu
 https://itsfoss.com/install-ubuntu/
 
-### Cuda driver
+## SSH
+
+### 
+
+## Cuda driver
 
 Prerequisite:
 - gcc: https://linuxize.com/post/how-to-install-gcc-on-ubuntu-20-04/
@@ -33,6 +37,33 @@ Test requires FreeImage: `sudo apt-get install libfreeimage3 libfreeimage-dev`
 
 Run test: https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html#verify
 
+## Docker
+https://docs.docker.com/engine/install/ubuntu/
+
+Post Install: https://docs.docker.com/engine/install/linux-postinstall/
+- Manage Docker as a non-root user
+- Configure Docker to start on boot
+
+
+### Nvidia
+https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#step-0-pre-requisites
+
+#### Build runtime nvidia
+https://stackoverflow.com/questions/59691207/docker-build-with-nvidia-runtime
+
+To build with GPU add default in `/etc/docker/daemon.json`:
+```
+{
+    "runtimes": {
+        "nvidia": {
+            "path": "/usr/bin/nvidia-container-runtime",
+            "runtimeArgs": []
+         } 
+    },
+    "default-runtime": "nvidia" 
+}
+```
+
 ## IDE
 python3.8-dev
 
@@ -40,9 +71,8 @@ pycharm
 vscode
 sublime
 
-## Docker
 
-### Nvidia
+## Surfdrive - Owncloud
 
 
 ## Zotero
