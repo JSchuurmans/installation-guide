@@ -7,7 +7,15 @@ https://itsfoss.com/install-ubuntu/
 
 ## SSH
 
-### 
+### Disable password login
+https://stackoverflow.com/questions/20898384/disable-password-authentication-for-ssh
+
+In file `/etc/ssh/sshd_config` uncommend and change the line to `PasswordAuthentication no`
+
+### ssh-keygen
+- TODO
+### ssh_config
+- TODO
 
 ## Cuda driver
 
@@ -64,12 +72,18 @@ To build with GPU add default in `/etc/docker/daemon.json`:
 }
 ```
 
-## IDE
-python3.8-dev
+## Python
 
+
+## IDE
 pycharm
+- jupyter
 vscode
+- ssh
+- python
 sublime
+- latex
+- markdown
 
 
 ## Surfdrive - Owncloud
@@ -80,8 +94,22 @@ Server Address: https://surfdrive.surf.nl/files
 
 
 ## Zotero
+```
+wget -qO- https://github.com/retorquere/zotero-deb/releases/download/apt-get/install.sh | sudo bash
+sudo apt-get update
+sudo apt-get install zotero
+```
+
+Configure to save pdf's to surfdrive folder.
+
+### UNKNOWN plugin
+- TODO
+
+### biblatex plugin
+- TODO
 
 ### Webplugin
+https://www.zotero.org/download/
 
 ## Zsh
 https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
