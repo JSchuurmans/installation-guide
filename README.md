@@ -82,9 +82,11 @@ or specifically python3.8-{venv, dev}
 ## IDE
 pycharm
 - jupyter
+
 vscode
 - ssh
 - python
+
 sublime
 - latex
 - markdown
