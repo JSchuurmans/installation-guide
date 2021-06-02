@@ -26,7 +26,7 @@ Prerequisite:
 https://developer.nvidia.com/cuda-11.1.1-download-archive
 
 Post install:
-- add following to .zshrc:
+- add following to `.bashrc` or `.zshrc`:
 ```
 export PATH=/usr/local/cuda-11.1/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH="/usr/local/cuda-11.1/lib64:$LD_LIBRARY_PATH"
@@ -73,7 +73,11 @@ To build with GPU add default in `/etc/docker/daemon.json`:
 ```
 
 ## Python
+`sudo apt install python3-venv python3-dev` 
+or specifically python3.8-{venv, dev}
 
+### TODO
+- other python versions 3.6 or 3.7
 
 ## IDE
 pycharm
