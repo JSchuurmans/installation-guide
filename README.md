@@ -73,6 +73,10 @@ sublime
 
 
 ## Surfdrive - Owncloud
+https://owncloud.com/desktop-app/#linux
+https://download.owncloud.com/desktop/ownCloud/stable/latest/linux/download/
+
+Server Address: https://surfdrive.surf.nl/files
 
 
 ## Zotero
@@ -84,3 +88,7 @@ https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 
 ### Oh My Zsh
 https://github.com/ohmyzsh/ohmyzsh
+
+
+# TODO
+- ROS
