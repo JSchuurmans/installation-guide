@@ -6,8 +6,12 @@ Installation Guide of all software required for my PhD
 https://itsfoss.com/install-ubuntu/
 
 ## SSH
+`sudo apt install ssh`
 
-### Disable password login
+### SSH server
+`sudo apt install openssh-server`
+
+#### Disable password login
 https://stackoverflow.com/questions/20898384/disable-password-authentication-for-ssh
 
 In file `/etc/ssh/sshd_config` uncommend and change the line to `PasswordAuthentication no`
