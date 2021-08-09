@@ -110,13 +110,36 @@ sudo apt-get update
 sudo apt-get install zotero
 ```
 
-Configure to save pdf's to surfdrive folder.
+### better bibtex plugin
+Manage citation keys and quick copy latex citation, such that you don't have to wait for the overleaf sync. 
 
-### UNKNOWN plugin
-- TODO
+- Zotero > Preferences > Better BibteX
+    - Citation keys
+        - [auth:lower]_[shorttitle1_0]_[year]
+    - QuickCopy format
+        - Latex citation
+    - LaTeX command cite
 
-### biblatex plugin
-- TODO
+
+### Zotfile plugin
+Configure to save pdf's to surfdrive folder, renaming of pdf's.
+
+- Tools > Zotfile preferences
+    - General Settings
+        - Custom Location: cloud folder `/Users/jetze/surfdrive/phd_jetze/literature`
+        - Use subfolder defined by `/%c`
+    - Renaming Rules
+        - Format for all Item Types: `{%a} ({%y}) {%t}`
+        - Max nr of authors: 1
+
+### Zutilo plugin
+Relocate attachments (e.g. after (re)installation).
+
+- Tools > Zutilo preferences
+    - Modify attachments
+
+Usage: select all > right click > zutilo > modify attachment paths
+
 
 ### Webplugin
 https://www.zotero.org/download/
