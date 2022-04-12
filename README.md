@@ -150,6 +150,17 @@ https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 ### Oh My Zsh
 https://github.com/ohmyzsh/ohmyzsh
 
+# Mac
+## LaTeX
+Install MacTex: https://tug.org/mactex/
+
+Install TexStudio: https://www.texstudio.org/
+
+### BibLaTeX
+When using BibLaTeX, change default compiler from `PdfLaTeX` to `latexmk`
+
+### TODO
+- Check git integration of TexStudio: https://christianliebel.com/2015/11/setting-up-texstudio-on-mac-os-x-10-11-el-capitan/
 
 # TODO
 - ROS
