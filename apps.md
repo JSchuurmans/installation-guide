@@ -1,13 +1,27 @@
 # Generic Apps
 
+
+## IDE
+pycharm
+- jupyter
+
+vscode
+- ssh
+- python
+
+sublime
+- latex
+- markdown
+
+## Comms
 - Teams
 - Slack
 - Basecamp
 
-
+## Entertainment
 - Spotify
 
-
+## Notes
 - Obsidian
   - [Sync iOS and MacOS via iCloud](https://medium.com/@philiprpowis/setting-up-obsidian-sync-with-icloud-drive-459a14e5e070)
 
