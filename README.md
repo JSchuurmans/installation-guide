@@ -82,18 +82,3 @@ or specifically python3.8-{venv, dev}
 
 ### TODO
 - other python versions 3.6 or 3.7
-
-## IDE
-pycharm
-- jupyter
-
-vscode
-- ssh
-- python
-
-sublime
-- latex
-- markdown
-
-
-
