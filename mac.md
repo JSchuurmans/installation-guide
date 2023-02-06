@@ -13,9 +13,20 @@
   - `brew install git`
   - git-lfs
     - `brew install git-lfs`
-- VS Code
+- [Sublime]
+  - `brew install --cask sublime-text`
+- [VS Code](https://code.visualstudio.com/docs/setup/mac)
   - `brew install --cask visual-studio-code`
-- 
+- [PyCharm](https://www.jetbrains.com/help/pycharm/installation-guide.html#standalone)
+  - Pro: `https://formulae.brew.sh/cask/pycharm`
+  - Community: `https://formulae.brew.sh/cask/pycharm-ce`
+- [Alfred](https://www.alfredapp.com/)
+  - brew install --cask alfred
+- [SnippetsLab](https://apps.apple.com/us/app/snippetslab/id1006087419?mt=12)
+- tree
+  - `brew install tree`
+- Postman
+  - `brew install --cask postman`
 
 # Python
 - [pyenv](https://github.com/pyenv/pyenv)
