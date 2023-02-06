@@ -1,6 +1,6 @@
 - [Homebrew](https://brew.sh/)
   - /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-- [Rectangle]([https://www.spectacleapp.com/](https://rectangleapp.com/)
+- [Rectangle](https://rectangleapp.com/)
   - `brew install --cask rectangle`
 - [MacDown](https://macdown.uranusjr.com/)
   - `brew install --cask macdown`
