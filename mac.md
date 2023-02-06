@@ -18,12 +18,35 @@
 - 
 
 # Python
-- pyenv
+- [pyenv](https://github.com/pyenv/pyenv)
+
+```bash
+brew update
+brew install pyenv
+```
+
+- [post install](https://github.com/pyenv/pyenv#set-up-your-shell-environment-for-pyenv)
+
+```
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+```
+
 - pipx
+  - `brew install pipx`
+  - `pipx ensurepath`
+  - post install
+```bash
+autoload -U bashcompinit
+bashcompinit
+eval "$(register-python-argcomplete pipx)"
+```
 - virtualenv
   - `pipx install virtualenv`
-- httpie
-- pip install httpie
+- [httpie](https://httpie.io/docs/cli/homebrew)
+  - From website: `brew install httpie`
+  - From Xcc: `pip install httpie`?
 
 
 ## Pip installs in virtualenv only
