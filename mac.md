@@ -27,6 +27,9 @@
   - `brew install tree`
 - Postman
   - `brew install --cask postman`
+- 1Password
+  - `brew install --cask 1password`
+  - `brew install --cask 1password-cli`
 
 # Python
 - [pyenv](https://github.com/pyenv/pyenv)
