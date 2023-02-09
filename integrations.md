@@ -1,0 +1,5 @@
+- [Calandly](https://calendly.com)
+  - Integrate with Zoom
+    - Set location as Zoom
+  - Integrate with Teams
+    - Office 365 for calandar conflicts
