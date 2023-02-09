@@ -30,6 +30,8 @@
 - 1Password
   - `brew install --cask 1password`
   - `brew install --cask 1password-cli`
+- [Grammarly](https://app.grammarly.com/)
+  - `brew install --cask grammarly`
 
 # Python
 - [pyenv](https://github.com/pyenv/pyenv)
