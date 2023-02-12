@@ -32,6 +32,8 @@
   - `brew install --cask 1password-cli`
 - [Grammarly](https://app.grammarly.com/)
   - `brew install --cask grammarly`
+- Skype
+  - `brew install --cask skype`
 
 # Python
 - [pyenv](https://github.com/pyenv/pyenv)
