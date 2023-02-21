@@ -83,3 +83,5 @@ gpip3() {
 ```
 
 
+# Optional
+- iStat menu
