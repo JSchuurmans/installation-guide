@@ -82,6 +82,14 @@ gpip3() {
 }
 ```
 
+## Poetry
+```bash
+curl -sSL https://install.python-poetry.org | python3 -
+```
+If the install script fails to add poetry to the path:
+```bash
+echo 'export PATH=$PATH:$HOME/.poetry/bin' >> ~/.zprofile
+```
 
 # Optional
 - iStat menu
