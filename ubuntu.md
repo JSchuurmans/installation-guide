@@ -81,4 +81,4 @@ To build with GPU add default in `/etc/docker/daemon.json`:
 or specifically python3.8-{venv, dev}
 
 ### TODO
-- other python versions 3.6 or 3.7
+- PyEnv
