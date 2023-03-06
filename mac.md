@@ -3,6 +3,8 @@
 - Keyboard
   - Keyreat --> fast
   - Delay until repeat --> slow
+- Trackpad
+  - Tap to click --> ON
 
 # Apps
 - [Homebrew](https://brew.sh/)
