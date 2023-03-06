@@ -29,7 +29,7 @@ echo 'venv/' >> ~/.gitignore
 echo "Global gitignore created"
 
 ## Generate SSH key
-# ssh-keygen -t rsa
+ssh-keygen -t ed25519 -C "your_email@example.com"
 
 ## Git LFS
 brew install git-lfs
@@ -114,9 +114,9 @@ plugins(
 "
 
 ## Environment variables with direnv
-# brew install direnv
-# echo 'eval "$(direnv hook zsh)"' >> ~/.zshrc
-# echo '.envrc' >> ~/.gitignore # Add to global .gitignore
+brew install direnv
+echo 'eval "$(direnv hook zsh)"' >> ~/.zshrc
+echo '.envrc' >> ~/.gitignore # Add to global .gitignore
 
 
 ############ Cloud SDKs
@@ -176,13 +176,15 @@ brew install tree
 brew install --cask rectangle
 brew install --cask firefox
 
+brew install --cask perimeter81
 brew install --cask 1password
 brew install --cask 1password-cli
 brew install --cask bitwarden
 
+brew install --cask zoom
 brew install --cask slack
 brew install --cask microsoft-teams
-brew install --cask zoom
+brew install --cask dropbox
 brew install --cask grammarly
 
 brew install --cask spotify
@@ -201,5 +203,4 @@ brew install --cask alfred # TODO: replace with free alternative
 # TODO
 # SnippetsLab #TODO: replace with free alternative
 # Office365
-# Dropbox
 # OneDrive / Sharepoint
