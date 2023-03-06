@@ -100,3 +100,4 @@ echo 'export PATH=$PATH:$HOME/.poetry/bin' >> ~/.zprofile
 
 # Optional
 - iStat menu
+- Screen Brush
