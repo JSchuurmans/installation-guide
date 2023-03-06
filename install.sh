@@ -48,8 +48,27 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ## Set zsh theme
 touch ~/.zshrc
-sed -i '' 's/ZSH_THEME=".*"/ZSH_THEME="bira"/g' ~/.zshrc
-sed -i '' 's/plugins=(git)/plugins=(git zsh-autosuggestions jump)/g' ~/.zshrc
+sed -i '' 's/ZSH_THEME=".*"/ZSH_THEME="robbyrussel"/g' ~/.zshrc
+sed -i '' 's/plugins=(git)/plugins=(
+git gitignore git-lfs
+zsh-autosuggestions 
+jump
+sudo
+rsync
+copyfile # Puts the contents of a file in your system clipboard
+copypath # Copies the absolute path of the current directory
+branch
+1password
+brew
+docker docker-compose
+microk8s minikube
+httpie
+aws gcloud terraform
+python pep8 pip pipenv poetry pylint
+ssh-agent
+sublime 
+vscode
+)/g' ~/.zshrc
 
 ## Fix zsh permissions for oh-my-zsh
 chmod 755 /usr/local/share/zsh
@@ -110,15 +129,7 @@ autoload -Uz compinit && compinit
 ### Oh My Zsh
 mkdir $ZSH_CUSTOM/plugins/poetry
 poetry completions zsh > $ZSH_CUSTOM/plugins/poetry/_poetry
-# add poetry plugin to 
-echo "
-Add poetry plugin to Oh My Zsh plugins:
 
-plugins(
-	poetry
-	...
-	)
-"
 
 ## Environment variables with direnv
 brew install direnv
