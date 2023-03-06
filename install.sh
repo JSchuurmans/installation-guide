@@ -184,6 +184,7 @@ brew install --cask bitwarden
 brew install --cask zoom
 brew install --cask slack
 brew install --cask microsoft-teams
+brew install --cask microsoft-office
 brew install --cask dropbox
 brew install --cask grammarly
 
