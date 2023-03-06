@@ -192,9 +192,10 @@ echo "VS Code $(code --version) successfully installed"
 # Install user apps (adjust to your preferences)
 brew install --cask iterm2
 brew install tree
-brew install --cask rectangle
+brew install --cask rectangle # window manager
+brew install --cask alfred # TODO: replace with free alternative
 
-brew install --cask perimeter81
+brew install --cask perimeter81 # vpn
 brew install --cask 1password
 brew install --cask 1password-cli
 brew install --cask bitwarden
@@ -215,12 +216,12 @@ brew install --cask sublime text
 brew install --cask firefox
 brew install httpie
 brew install --cask postman
-brew install --cask insomnia
+brew install --cask insomnia # REST requests into code
 
-brew install --cask alfred # TODO: replace with free alternative
-brew install --cask mathpix-snipping-tool
-brew install --cask vlc
-brew install --cask obs
+brew install --cask mathpix-snipping-tool # latex snippets
+brew install --cask vlc # media player
+brew install --cask obs # screen recorder and streaming
+brew install --cask kap # screen recoder
 
 # TODO
 # SnippetsLab #TODO: replace with free alternative
