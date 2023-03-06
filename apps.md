@@ -2,12 +2,14 @@
 
 
 ## IDE
+vscode
+- remote - ssh
+- python
+- docker
+- dev containers
+
 pycharm
 - jupyter
-
-vscode
-- ssh
-- python
 
 sublime
 - latex
@@ -24,4 +26,3 @@ sublime
 ## Notes
 - Obsidian
   - [Sync iOS and MacOS via iCloud](https://medium.com/@philiprpowis/setting-up-obsidian-sync-with-icloud-drive-459a14e5e070)
-
