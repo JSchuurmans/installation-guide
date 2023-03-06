@@ -193,7 +193,6 @@ echo "VS Code $(code --version) successfully installed"
 brew install --cask iterm2
 brew install tree
 brew install --cask rectangle
-brew install --cask firefox
 
 brew install --cask perimeter81
 brew install --cask 1password
@@ -213,10 +212,15 @@ brew install --cask obsidian
 brew install --cask macdown
 brew install --cask sublime text
 
+brew install --cask firefox
 brew install httpie
 brew install --cask postman
+brew install --cask insomnia
 
 brew install --cask alfred # TODO: replace with free alternative
+brew install --cask mathpix-snipping-tool
+brew install --cask vlc
+brew install --cask obs
 
 # TODO
 # SnippetsLab #TODO: replace with free alternative
