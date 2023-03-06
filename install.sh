@@ -203,5 +203,3 @@ brew install --cask alfred # TODO: replace with free alternative
 
 # TODO
 # SnippetsLab #TODO: replace with free alternative
-# Office365
-# OneDrive / Sharepoint
