@@ -78,13 +78,12 @@ source ~/.zshrc
 
 ############ Python, dbt & Utilities
 
-## install Python3
-# echo "Installing Python3..."
-# brew install python3
-# echo "Python $(python3 --version) succesfully installed"
-
-# TODO install python via pyenv
+## install Python via pyenv
 brew install pyenv
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zprofile
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zprofile
+echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zprofile
+echo 'export PATH="$HOME/.pyenv/shims:$PATH"' >> ~/.zprofile
 
 # TODO check why alias is a bad practise 
 # set pip and python to pip3 and python3 aliases (or remove if you prefer)
