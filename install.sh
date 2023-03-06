@@ -24,12 +24,19 @@ echo '__pycache__/' >> ~/.gitignore
 echo '.cache/' >> ~/.gitignore
 echo 'env/' >> ~/.gitignore
 echo 'venv/' >> ~/.gitignore
-
-
 echo "Global gitignore created"
 
 ## Generate SSH key
 ssh-keygen -t ed25519 -C "your_email@example.com"
+
+echo "
+Host github.com
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_ed25519
+" >> ~/.ssh/config
+
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 
 ## Git LFS
 brew install git-lfs
