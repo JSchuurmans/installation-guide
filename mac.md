@@ -1,3 +1,10 @@
+# System settings in Mac
+
+- Keyboard
+  - Keyreat --> fast
+  - Delay until repeat --> slow
+
+# Apps
 - [Homebrew](https://brew.sh/)
   - /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 - [Rectangle](https://rectangleapp.com/)
