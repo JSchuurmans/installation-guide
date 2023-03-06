@@ -5,6 +5,7 @@
   - Delay until repeat --> slow
 - Trackpad
   - Tap to click --> ON
+  - Track speed --> 5/9
 
 # Apps
 - [Homebrew](https://brew.sh/)
