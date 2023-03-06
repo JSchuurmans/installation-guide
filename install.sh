@@ -192,7 +192,9 @@ echo "VS Code $(code --version) successfully installed"
 brew install --cask iterm2
 brew install tree
 brew install --cask rectangle # window manager
+
 brew install --cask alfred # TODO: replace with free alternative
+brew install --cask todoist
 
 brew install --cask perimeter81 # vpn
 brew install --cask 1password
