@@ -80,6 +80,10 @@ source ~/.zshrc
 
 ## install Python via pyenv
 brew install pyenv
+echo '# pyenv' >> ~/.zshrc
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zprofile
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zprofile
 echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zprofile
