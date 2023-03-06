@@ -190,6 +190,7 @@ echo "VS Code $(code --version) successfully installed"
 
 ############ Other programs
 # Install user apps (adjust to your preferences)
+brew install --cask iterm2
 brew install tree
 brew install --cask rectangle
 brew install --cask firefox
@@ -216,8 +217,6 @@ brew install httpie
 brew install --cask postman
 
 brew install --cask alfred # TODO: replace with free alternative
-
-# brew install --cask iterm2 # TODO: Is iterm2 necessary with terminal and rectangle?
 
 # TODO
 # SnippetsLab #TODO: replace with free alternative
