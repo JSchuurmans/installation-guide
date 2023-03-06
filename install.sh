@@ -210,3 +210,4 @@ brew install --cask alfred # TODO: replace with free alternative
 
 # TODO
 # SnippetsLab #TODO: replace with free alternative
+# Ssh config for gitlab
