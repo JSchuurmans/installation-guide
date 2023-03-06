@@ -5,6 +5,8 @@
 vscode
 - remote - ssh
 - python
+- pylint
+- flake8
 - docker
 - dev containers
 
