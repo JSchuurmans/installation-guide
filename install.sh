@@ -197,7 +197,7 @@ brew install --cask iterm2
 brew install tree
 brew install --cask rectangle # window manager
 
-brew install --cask alfred # TODO: replace with free alternative
+brew install --cask alfred # TODO: replace with free alternative, e.g. https://www.raycast.com/
 brew install --cask todoist
 
 brew install --cask perimeter81 # vpn
