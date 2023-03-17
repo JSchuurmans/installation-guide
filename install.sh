@@ -24,10 +24,11 @@ echo '__pycache__/' >> ~/.gitignore
 echo '.cache/' >> ~/.gitignore
 echo 'env/' >> ~/.gitignore
 echo 'venv/' >> ~/.gitignore
+echo '.venv/' >> ~/.gitignore
 echo "Global gitignore created"
 
 ## Generate SSH key
-ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "your_email@example.com" # TODO change / parameterize
 
 echo "
 Host github.com
